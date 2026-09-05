@@ -23,6 +23,6 @@ sudo cp nanorc /etc/nanorc
 ### User-Level Installation
 ​Apply the configuration exclusively for the current user:
 
-``bash
+```bash
 cp nanorc ~/.nanorc
 ```
