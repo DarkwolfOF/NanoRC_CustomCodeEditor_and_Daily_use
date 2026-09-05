@@ -24,5 +24,5 @@ sudo cp nanorc /etc/nanorc
 ​Apply the configuration exclusively for the current user:
 
 ```bash
-cp nanorc ~/.nanorc
+cp nanorc ~/.config/nano/nanorc
 ```
