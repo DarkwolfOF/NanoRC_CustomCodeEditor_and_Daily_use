@@ -19,9 +19,10 @@ Apply the configuration globally across all system users:
 
 ```bash
 sudo cp nanorc /etc/nanorc
-
+```
 ### User-Level Installation
 ​Apply the configuration exclusively for the current user:
 
 ``bash
 cp nanorc ~/.nanorc
+```
