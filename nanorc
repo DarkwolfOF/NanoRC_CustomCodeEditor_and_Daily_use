@@ -1,0 +1,253 @@
+#
+
+# ##    #  ###      ##    #   ###
+
+# ###   #  ## #     ###   #  #   #
+
+# ## #  #  ##  #    ## #  #  #   #
+
+# ##  # #  ######   ##  # #  #   #
+
+# ##   ##  ##    #  ##   ##   ###
+
+#
+
+# Config File Nano V0.1b (Beta)
+
+#
+
+# DarkwolfOF
+
+#
+
+
+
+##### ----- Funciones ----- #####
+
+
+
+# Mostrar el Numero de Linea
+
+set linenumbers
+
+
+
+# Mostrar Posicion del Raton en Barra Inferior
+
+# set constantshow # Mas Simple
+
+set indicator # Mas Moderna
+
+
+
+# Usar Raton para Posicionar y Hacer Scroll
+
+set mouse
+
+
+
+# Mantiener la: Sangria Derivada de la Linea Anterior
+
+set autoindent
+
+
+
+# Autoajuste de Lineas Largas para no Salir de la Pantalla
+
+set softwrap
+
+set atblanks # Esto Permite que las Palabras no se Corten al Pasar a la Siguiente Linea
+
+
+
+# Define el Tamano de Espacios que Forma un Tabulador
+
+set tabsize 4
+
+set whitespace 00 # Muestra Espacios y Tabs con Simbolos Visuales
+
+set tabstospaces
+
+
+
+# Ocultar la Barra de Atajos Inferrior
+
+set nohelp
+
+
+
+# Mostrar Nombre del Archivo en la Barra Superior
+
+set minibar
+
+
+
+# Habilitar una Linea NO Usable por Debajo de la Barra de Titulo
+
+set emptyline
+
+
+
+# Habilita el Borrado de Region Marcada
+
+# NOTA: Al Marcar Texto y Pulsar Supr/Del o Retroceso/Back Eliminara el Contenido Marcado
+
+set zap
+
+
+
+# Habilitar Archivo Backup para Cierres Inesperados
+
+set backup
+
+set backupdir "/tmp" # Directorio de Guardade del Backup (Debe Existir)
+
+
+
+# Habilitar la Eliminacion de Espacios al Final de Linea
+
+set trimblanks
+
+
+
+# Habilitar Resaltado de la Linea Actual
+
+# La Linea Actual es la Linea en la que el Usuario Esta Posicionado
+
+set stateflags
+
+
+
+# Habilitar el Historial de Posicion
+
+#NOTA: Al Abrir el Archivo te Posicionara en la Misma Linea que Estabas al Cerrar
+
+set positionlog
+
+
+
+# Habilitar el Historial de Busquedas/Reemplazos
+
+# NOTA: Esto permite Guardar un Historial de tus Busquedas y Reemplazos para Permitir Volver Atras
+
+set historylog
+
+
+
+# Habilitar Scroll Linea a Linea (Mas Suabe)
+
+# NOTA: No Soportado por Todas las Versiones (si no es soportado revisa la documentacion
+
+set jumpyscrolling
+
+
+
+# Habilitar el Movimiento de Linea con Indentacion
+
+# NOTA: Al Pulsar "Inicio" el cursor se movera al principio de la linea
+
+# NOTA: Si estas al principio de la linea te mueve al principio absoluto de esa linea (0,0)
+
+set smarthome
+
+
+
+# Habilitar Linea Vertical
+
+# NOTA: Esto Habilita una Linea que Marca ese Numero de Linea Especificado
+
+# set guidestripe 80
+
+
+
+# Habilitar el Auto-Scroll con Cntrl+W
+
+set afterends
+
+
+
+# Habilitar Bloqueo Multi-Instancia
+
+# NOTA: ESTO IMPIDE ABRIR EN DOS NANO A LA VEZ EL MISMO ARCHIVO
+
+set locking
+
+
+
+##### ------ Efectos ------ #####
+
+
+
+# Resalta la Sintaxis de los Comandos (Version Base)
+
+# include "/usr/share/nano/*.nanorc"
+
+
+
+# Resalta la Sintaxis de los Comandos (Version Mejorada) (Requiere Instalar nano-syntax-highlighting)
+
+include "/usr/share/nano-syntax-highlighting/*.nanorc"
+
+
+
+
+
+##### ------ Colores ------ #####
+
+## Cambia el Color del Panel de Numero de Linea
+
+## 'normal' usa el Fondo de tu Terminal, 'cyan' o 'black' para el Numero
+
+
+
+# Colores de la Barra de Titulo
+
+set titlecolor white,blue
+
+
+
+# Colores de la Barra de Estado
+
+set statuscolor white,green
+
+
+
+# Colore de los Numeros de la Interfaz
+
+set numbercolor cyan
+
+
+
+# Color de Accesos/Teclas
+
+# set keycolor yellow
+
+
+
+# Color de Elementos Funcionales/Especiales
+
+# set functioncolor magenta
+
+
+
+# Color de Texto Seleccionado
+
+# set selectedcolor white,magenta
+
+
+
+# Color de Errores
+
+# set errorcolor white,red
+
+
+
+# Color de Busquedas
+
+# set spotlightcolor black,yellow
+
+
+
+# Color de Prompts/Preguntas
+
+# set promptcolor white,cyan
